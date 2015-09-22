@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<AcademicDiscoveryCenterArticle ID="x10194" Name="Content" IsComponent="false" Layout="byuidefault.xsl">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">News Media Resources</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">News Media Resources</Abstract>
+  <Subtitle type="string" label="Subtitle" readonly="false" hidden="false" required="false"/>
+  <xPower Type="Component" Name="Navigation" label="Navigation" readonly="false" hidden="false" required="false" Component="" CompTypes="" Expanded="false"/>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false"/>
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false"/>
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment=""/>
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false"/>
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false"/>
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false"/>
+  </xPower>
+  <BodyCopy type="dhtml" label="Article Body" readonly="false" hidden="false" required="false" Height="">
+    &lt;div&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;h1 style="text-align: center;"&gt;Content is placed here&lt;/h1&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;p&gt;&#xA0;&lt;/p&gt;
+    &lt;/div&gt;</BodyCopy>
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/>
+  </xPower>
+  <xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="" MaxNodes="" MaxDepth="" Query=""/>
+  <xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/>
+  <xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x10257" CompTypes="SiteControl" Expanded="false"/>
+</AcademicDiscoveryCenterArticle>
